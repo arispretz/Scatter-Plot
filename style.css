@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+      min-height: 100vh;
+      background-color: #FFFF00;    
+      display: grid;
+      grid-template-rows: 1fr;
+      align-items: center;
+      text-align: center;
+      font-family: verdana, sans-serif;
+    }
+    
+  #main {
+    padding: 50px;
+  }
+  
+    #container {
+      margin-top: -50px;
+      justify-content: center;
+      border: 2px solid white;
+      width: 80%;
+      height: 550px;
+      margin: auto;
+      background-color: #ffffff;
+      opacity: 0.9;
+      overflow: hidden;
+    }
+    
+    #title {
+      margin: auto;
+      font-family: 'Lato', sans-serif;
+      color: #800080;
+      margin-bottom: 30px;
+    }
+    
+    #scatter-plot-container {
+      margin: 20px 20px 50px -180px;
+      width: 1300px;
+      height: 1050px;
+      position: relative;
+    }
+    
+  p {
+     color: #800080;
+     padding-top: 50px;
+  }
+  
+    #tooltip {
+      font-size: 10px;
+      padding: 10px;
+      box-shadow: 2px 1px 5px 1px #000000;
+      font-family: 'Lato', sans-serif;
+      min-width: fit-content;
+      background-color: #EAE6CA;
+      color: #7027A0;
+      width: 320px;
+      height: 60px;
+      position: absolute;
+      bottom: 250px;
+      left: 0;
+      z-index: 1;
+    }
+    
+    #vTitle {
+      position: absolute;
+      top: 125px;
+      left: 66px;
+      transform: rotate(-90deg);
+    }
